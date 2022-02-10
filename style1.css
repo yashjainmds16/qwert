@@ -1,0 +1,247 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+:root{
+    font-size: 62.5%;
+}
+.navbar{
+    color:white;
+    background-color: rgb(36, 32, 32);
+    padding: 1.5rem;
+}
+.container{
+    width: 70%;
+    margin: 0em auto;
+}
+.s{
+    background-color: lightgray;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.container1{
+    width: 30%;
+    margin: 0px auto;
+}
+footer{
+    color: white;
+    background-color: rgb(48, 45, 45);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.last1,.last2,.last3{
+    float: left;
+    width: 33%;
+    text-align: center;
+}
+.last p{
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+.s1{
+    float: left;
+    width: 49%;
+    background-color:white;
+    padding: 3rem;
+    line-height: 2.5rem;
+}
+.s2{
+    float: right;
+    width: 49%;
+    background-color:white;
+    padding: 1rem;
+}
+.s2 h1{
+    font-size: 2.5rem;
+    border-bottom: 4px rgb(204, 40, 67) solid;
+    margin-bottom: 1rem;
+}
+.s1 h1{
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-left: 0.5em;
+    margin-bottom: 0.3em;
+}
+.s2 p{
+    padding-top: 0.5rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-bottom: 2rem;
+}
+.s2 label{
+    font-size: 1.5rem;
+}
+.s2 label,.s2 input{
+    display: block;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.s2 input[type="submit"]{
+    font-size: 2rem;
+    padding: 0.5rem 4rem;
+    color:white;
+    background-color: rgb(187, 24, 79);
+    margin: 1rem auto;
+    cursor: pointer;
+}
+.s2 textarea{
+    width:90%
+}
+.s1 img{
+    width: 100%;
+}
+.s1 p{
+    font-size: 1.5rem;
+    margin-bottom:2em;
+}
+.s1 i{
+    color :rgb(194, 37, 63)
+}
+form label::after{
+    content: " *";
+    color:rgb(189, 41, 66);
+}
+.sect{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+.container .sect1{
+    font-size: 2rem;
+    padding-bottom: 0.5em;
+    border-bottom: 0.25em rgb(175, 20, 46) solid;
+}
+.container .sect2{
+    font-size: 1.5rem;
+    padding-top: 0.7em;
+    line-height: 2.5rem;
+}
+.sect3 .sect31{
+    float:left;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 0.5em;
+    padding-top: 0.5em;
+    line-height: 3rem;
+}
+.sect3 .sect32{
+    float: right;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 0.5em;
+    padding-top: 0.5em;
+    line-height: 3rem;
+}
+.sect4{
+    margin-top: 2.5rem;
+    line-height: 3rem;
+    margin-bottom: 2.5rem;
+}
+.sect4 .sect41,.sect4 .sect42,.sect4 .sect43,.sect4 .sect44{
+    float:left;
+    width: 25%;
+    text-align: center;
+}
+.sect5{
+    background-color: rgb(221, 66, 92);
+    color:white;
+    padding: 1rem;
+    position: relative;
+}
+.sect5 .sect51{
+    float: left;
+}
+.sect5 .sect52{
+    float: right;
+}
+.sect5 .sect51 p{
+    font-size: 2rem;
+}
+.sect5 .sect52 a{
+    color:white;
+    text-decoration: none;
+    font-size: 2.5rem;
+    border: 3px white solid;
+    display: inline-block;
+    padding: 0.5em;
+    letter-spacing: 0.3em;
+}
+.heading1{
+    font-size: 2.5rem;
+    color:rgb(219, 7, 77);
+    box-sizing: border-box;
+}
+.heading2{
+    font-size: 1.3rem;
+    font-weight: bold;
+    box-sizing: border-box;
+    padding: 0px;
+}
+.container .nav-cont1{
+    float:left;
+}
+.container .nav-cont2{
+    float:right;
+}
+.clearnxt{
+    clear: both;
+}
+.nav-cont1{
+    font-size: 3rem;
+}
+.nav-cont2{
+    padding-top: 1rem;
+}
+.nav-cont2 ul li{
+    display: inline-block;
+    font-size: 2rem;
+    margin: 0rem 1rem;
+}
+.nav-cont2 ul li a{
+    text-decoration: none;
+    color:white;
+}
+@media (max-width:600px){
+    .navbar .container .nav-cont1{
+        float:none;
+        width: 100%;
+        text-align: center;
+    }
+    .navbar .container .nav-cont2{
+        float:none;
+        line-height: 3rem;
+        width: 100%;
+        text-align: center;
+    }
+    .s .container .s1{
+        float:none;
+        width: 100%;
+    }
+    .s .container .s1 h1{
+
+    }
+    .s .container .s2{
+        float:none;
+        width: 100%;
+        margin-top: 2rem;
+    }
+    .container1{
+        width: 80%;
+    }
+    .sect5 .sect51{
+        float: none;
+    }
+    .sect5 .sect52{
+        float: none;
+        margin-top: 2rem;
+    }
+    
+}
+@media (min-width:500px) and (max-width:900px){
+    .sect .sect3 .sect31,.sect .sect3 .sect32{
+        float: none;
+    }
+}

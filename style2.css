@@ -1,0 +1,27 @@
+.sec{
+    background-color: lightgray ;
+    box-sizing: border-box;
+}
+.sec1{
+    float: left;
+    width: 49%;
+    border: 2px solid red;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.sec2{
+    float: right;
+    width: 49%;
+    border: 2px solid red;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.clearnxt{
+    clear: both;
+}
+@media (max-width:500px){
+    .sec1,.sec2{
+        float: none;
+        width: 100%;
+    }
+}
